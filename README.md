@@ -1,2 +1,2 @@
-# leetcode-prectice
+# leetcode-practice
 -20. Valid Parentheses
