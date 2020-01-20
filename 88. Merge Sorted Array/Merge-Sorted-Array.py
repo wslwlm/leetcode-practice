@@ -27,7 +27,7 @@ class Solution:
         return nums1
 
 
-# 从后往前 merge则不用创建一个新数组, 
+# 从后往前 merge则不用创建一个新数组, 插入nums1中的元素并不消耗空间(只是有效空间左移), 插入nums2中的元素消耗空间.
 class githubSolution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
