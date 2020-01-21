@@ -6,3 +6,4 @@
 * Add Two Numbers
 * Longest Substring Without Repeating Characters
 * Longest Palindromic Substring
+* Maximum Depth of Binary Tree
