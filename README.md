@@ -11,3 +11,4 @@
 * Best Time to Buy and Sell Stock
 * Best Time to Buy and Sell Stock II
 * Valid Palindrome
+* Longest Increasing Subsequence
