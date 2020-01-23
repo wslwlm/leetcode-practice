@@ -13,3 +13,5 @@
 * Valid Palindrome
 * Longest Increasing Subsequence
 * Longest Valid Parentheses
+* Unique Paths
+* Climbing Stairs
