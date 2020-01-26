@@ -25,3 +25,4 @@
 * Divide Two Integers
 * Factorial Trailing Zeroes
 * Next Permutation
+* Majority Element
