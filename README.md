@@ -24,3 +24,4 @@
 * Container With Most Water
 * Divide Two Integers
 * Factorial Trailing Zeroes
+* Next Permutation
