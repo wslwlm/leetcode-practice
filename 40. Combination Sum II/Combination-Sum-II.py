@@ -2,7 +2,7 @@
 # Runtime: 40 ms Memory Usage: 12.7 MB
 # 类似 Combination Sum中的做法, 不过将相同元素跳过, 以及不能重复使用同一元素
 
-class Solution:
+class MySolution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         candidates.sort()
         
@@ -24,7 +24,7 @@ class Solution:
 # RunTime: 24ms
 # 回溯法
 from copy import deepcopy
-class Solution:
+class bestSolution:
     def combinationSum2(self, candidates, target):
     # Sorting is really helpful, se we can avoid over counting easily
         candidates.sort()                      
@@ -60,7 +60,7 @@ class Solution:
 
 # RunTime: 28ms
 # 回溯法
-class Solution:
+class bestSolution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         def helper(target,path,cand,i,res):
             if target == 0:
@@ -74,3 +74,41 @@ class Solution:
         candidates.sort()
         helper(target,[],candidates,0,res)
         return res
+
+
+# 回溯法
+class githubSolution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        """
+        与39题的区别是不能重用元素，而元素可能有重复；
+        不能重用好解决，回溯的index往下一个就行；
+        元素可能有重复，就让结果的去重麻烦一些；
+        """
+        size = len(candidates)
+        if size == 0:
+            return []
+        
+        # 还是先排序，主要是方便去重
+        candidates.sort()
+        
+        path = []
+        res = []
+        self._find_path(candidates, path, res, target, 0, size)
+        
+        return res
+    
+    def _find_path(self, candidates, path, res, target, begin, size):
+        if target == 0:
+            res.append(path.copy())
+        else:
+            for i in range(begin, size):
+                left_num = target - candidates[i]
+                if left_num < 0:
+                    break
+                # 如果存在重复的元素，前一个元素已经遍历了后一个元素与之后元素组合的所有可能
+                if i > begin and candidates[i] == candidates[i-1]:
+                    continue
+                path.append(candidates[i])
+                # 开始的 index 往后移了一格
+                self._find_path(candidates, path, res, left_num, i+1, size)
+                path.pop()
