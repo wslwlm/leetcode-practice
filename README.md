@@ -29,3 +29,4 @@
 * Search in Rotated Sorted Array
 * Reverse Bits
 * Combination Sum
+* Number of 1 Bits
