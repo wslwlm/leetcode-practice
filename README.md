@@ -27,3 +27,4 @@
 * Next Permutation
 * Majority Element
 * Search in Rotated Sorted Array
+* Reverse Bits
