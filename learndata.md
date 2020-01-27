@@ -11,5 +11,8 @@
 - [x] 广度优先搜索
 - [x] 递归
 - [x] LIS(最长上升子序列)
-- [ ] LCS(最长公共子序列)
+- [x] LCS(最长公共子序列)
 - [x] 二分查找
+- [x] 回溯法
+
+* https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
