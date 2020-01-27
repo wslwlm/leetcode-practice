@@ -21,3 +21,19 @@ class Solution:
     def hammingWeight(self, n: int) -> int:
         b = bin(n)[2:]                              # 去除'0b'前缀
         return len([c for c in b if c == '1'])
+
+
+# 思路比较新奇
+# 这里用一个trick， 可以轻松求出。 就是n & (n - 1) 可以消除 n 最后的一个1的原理。
+# trick原理, n-1 必使n的最后一个1翻转为0
+class githubSolution(object):
+    def hammingWeight(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        count = 0
+        while n:
+            n &= n - 1
+            count += 1
+        return count
