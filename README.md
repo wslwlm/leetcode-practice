@@ -31,3 +31,4 @@
 * Combination Sum
 * Number of 1 Bits
 * Combination Sum II
+* Permutations
