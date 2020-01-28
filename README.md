@@ -37,3 +37,4 @@
 * Rotate Image
 * Group Anagrams 
 * Jump Game
+* Merge Intervals
