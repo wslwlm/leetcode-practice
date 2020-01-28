@@ -38,3 +38,4 @@
 * Group Anagrams 
 * Jump Game
 * Merge Intervals
+* Permutation Sequence
