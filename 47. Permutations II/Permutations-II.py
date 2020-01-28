@@ -44,15 +44,18 @@ class MySolution:
 
 
 # RunTime: 40ms
-# 排列组合法
-class Solution:
-    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+# 排列组合法：每一步都是排列好的, 所以主要考虑插入位置
+class bestSolution:
+    def permuteUnique(self, nums):
         permutations = [[]]
     
         for head in nums:
             permutations = [rest[:i]+[head]+rest[i:] for rest in permutations for i in range((rest+[head]).index(head)+1)]
+            print(permutations)
         
         return permutations
+
+bestSolution().permuteUnique([1,2,2,1])
 
 
 # RunTime: 36ms
