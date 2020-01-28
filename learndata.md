@@ -22,3 +22,9 @@
 - [x] 回溯法
 
 * https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+
+- [x] rotate image(图片旋转90度)
+
+先进行一次以对角线为轴的翻转，然后 再进行一次以水平轴心线为轴的翻转即可
+
+![](/media/wsl/UBUNTU 18_0/leetcode-practice/48.rotate-image-2.png)
