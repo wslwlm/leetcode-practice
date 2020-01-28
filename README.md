@@ -35,4 +35,5 @@
 * House Robber
 * Permutations II
 * Rotate Image
-* Group Anagrams
+* Group Anagrams 
+* Jump Game
