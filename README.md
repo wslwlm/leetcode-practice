@@ -46,3 +46,4 @@
 * Contains Duplicate II
 * Invert Binary Tree
 * Implement Queue using Stacks
+* Ugly Number
