@@ -41,3 +41,6 @@
 * Permutation Sequence
 * Set Matrix Zeroes
 * Subsets
+* Remove Linked List Elements
+* Reverse Linked List
+* Contains Duplicate II
