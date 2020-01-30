@@ -51,3 +51,4 @@
 * Power of Four
 * Intersection of Two Arrays
 * Path Sum III(*)
+* Find Mode in Binary Search Tree
