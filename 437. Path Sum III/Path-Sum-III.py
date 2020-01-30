@@ -19,6 +19,7 @@ class Solution:
 
 
 # RunTime: 36ms
+# 将对应路径下的值加起来, 前驱存进去hashmap中, 回溯过程中, 之前走过的路径减掉
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         sum_cnt = {0: 1}
