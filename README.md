@@ -47,3 +47,7 @@
 * Invert Binary Tree
 * Implement Queue using Stacks
 * Ugly Number
+* Move Zeroes
+* Power of Four
+* Intersection of Two Arrays
+* Path Sum III(*)
