@@ -28,3 +28,9 @@
 先进行一次以对角线为轴的翻转，然后 再进行一次以水平轴心线为轴的翻转即可
 
 ![](/media/wsl/UBUNTU 18_0/leetcode-practice/48.rotate-image-2.png)
+
+
+
+- [x] 循环移位算法
+
+* https://lucifer.ren/blog/2019/12/11/rotate-list/
