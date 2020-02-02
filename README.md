@@ -55,3 +55,14 @@
 * Distribute Candies
 * Walking Robot Simulation
 * Shift 2D Grid
+* Pow(x, n)
+* Sort Colors
+* Word Search(*)
+* Remove Duplicates from Sorted Array II
+* Partition List
+* Subsets II
+* Decode Ways
+* Reverse Linked List II
+* Binary Tree Inorder Traversal
+* Unique Binary Search Trees
+* Unique Binary Search Trees II

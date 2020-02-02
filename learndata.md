@@ -34,3 +34,5 @@
 - [x] 循环移位算法
 
 * https://lucifer.ren/blog/2019/12/11/rotate-list/
+
+- [x] 分治法
