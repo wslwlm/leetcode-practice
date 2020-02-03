@@ -69,3 +69,45 @@ class Solution:
             stack.append((root.right, val, upper))
             stack.append((root.left, lower, val))
         return True  
+
+
+# 思路: 根据定义法递归
+class githubSolution:
+    def isValidBST(self, root: TreeNode, area: tuple=(-float('inf'), float('inf'))) -> bool:
+        """思路如上面的分析，用Python表达会非常直白
+        :param root TreeNode 节点
+        :param area tuple 取值区间
+        """
+        if root is None:
+            return True
+        
+        is_valid_left = root.left is None or\
+                   (root.left.val < root.val and area[0] < root.left.val < area[1])
+        is_valid_right = root.right is None or\
+                   (root.right.val > root.val and area[0] < root.right.val < area[1])
+        
+        # 左右节点都符合，说明本节点符合要求
+        is_valid = is_valid_left and is_valid_right
+        
+        # 递归下去
+        return is_valid\
+            and self.isValidBST(root.left, (area[0], root.val))\
+            and self.isValidBST(root.right, (root.val, area[1]))
+
+
+# 递归
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
+        def helper(node, lower, upper):
+            if not node:
+                return True
+            val = node.val
+            if val <= lower or val >= upper:
+                return False
+            if not helper(node.right, val, upper):
+                return False
+            if not helper(node.left, lower, val):
+                return False
+            return True
+
+        return helper(root, float('-inf'), float('inf'))
