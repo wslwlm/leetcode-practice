@@ -81,3 +81,6 @@
 * Number of Islands
 * Bitwise AND of Numbers Range
 * Minimum Size Subarray Sum
+* Kth Largest Element in an Array
+* Maximal Square
+* Majority Element II
