@@ -74,3 +74,10 @@
 * Surrounded Regions
 * Palindrome Partitioning
 * Word Break
+* Binary Tree Preorder Traversal
+* Evaluate Reverse Polish Notation
+* Maximum Product Subarray
+* Binary Tree Right Side View
+* Number of Islands
+* Bitwise AND of Numbers Range
+* Minimum Size Subarray Sum
