@@ -42,5 +42,9 @@
 - [x] 二叉树的中序遍历(栈和递归实现)
 - [x] BST树(中序遍历为有序数组)
 - [x] 二叉树的层次遍历
-- [x] dfs(深度优先遍历)
-- [x] 摩尔投票法
+- [x] dfs(深度优先搜索)
+- [x] LCA(二叉树中的共同祖先)
+- [x] 摩尔投票法(单双投票器)
+
+* 多投票器: 
+* https://leetcode.com/problems/majority-element-ii/discuss/63500/JAVA-Easy-Version-To-Understand!!!!!!!!!!!!/64925
