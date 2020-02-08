@@ -88,3 +88,7 @@
 * Lowest Common Ancestor of a Binary Tree(*)
 * Product of Array Except Self
 * Search a 2D Matrix II
+* Perfect Squares
+* Best Time to Buy and Sell Stock with Cooldown
+* Coin Change
+* Increasing Triplet Subsequence
