@@ -26,18 +26,21 @@ class Solution:
 
 
 # RunTime: 40ms
-# 思路: 
+# 思路: 从最大数值硬币开始搜索, 然后更新 min_coins, 然后通过比较缩小搜索空间, 
 class Solution:
     def coinChange(self, coins, amt):
         def helper(num_coins, remaining, i, min_coins):
             coin = coins[i]
 
+            # 搜索到可用值
             if not remaining % coin:
                 return min(num_coins + remaining // coin, min_coins)
 
+            # 未搜索到可用值
             if i is len(coins) - 1:
                 return min_coins
 
+            # 从最大硬币面值开始, 看remianing中能取多少个当前硬币
             for j in range(remaining // coin, -1, -1):
                 if (num_coins + j) - (remaining - coin*j)//-coins[i + 1] < min_coins:
                     min_coins = min(helper(num_coins + j, remaining - coin * j, i + 1, min_coins), min_coins)
@@ -52,7 +55,7 @@ class Solution:
 
 
 # RunTime: 72 ms
-# 思路:
+# 思路: 类似递归, remianing - coins[i] ==> 下一次递归输入的remaining 
 class Solution(object):
     def coinChange(self, coins, amount):
         """
