@@ -84,3 +84,7 @@
 * Kth Largest Element in an Array
 * Maximal Square
 * Majority Element II
+* Kth Smallest Element in a BST
+* Lowest Common Ancestor of a Binary Tree(*)
+* Product of Array Except Self
+* Search a 2D Matrix II
