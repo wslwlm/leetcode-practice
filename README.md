@@ -92,3 +92,14 @@
 * Best Time to Buy and Sell Stock with Cooldown
 * Coin Change
 * Increasing Triplet Subsequence
+* Regular Expression Matching
+* Wildcard Matching (x)
+* Minimum Path Sum 
+* Edit Distance (x)
+* Maximal Rectangle (x)
+* Interleaving String 
+* Distinct Subsequences 
+* Triangle 
+* House Robber II
+* Ugly Number II (*)
+* Word Break II
